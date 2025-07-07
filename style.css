@@ -96,7 +96,7 @@ body{
     color: #636363;
 }
 
-.accordion-content .description{
+.accordion-content .description1 .description2{
     height: 0;
     font-size: 12px;
     color: white;
@@ -104,4 +104,8 @@ body{
     padding: 0 15px;
     transition: all 0.2s linear;
     width: 35vw;
+    margin-left: 2vw;
+}
+.accordion-content .descricao img{
+    width: 10vw;
 }
