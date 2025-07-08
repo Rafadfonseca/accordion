@@ -66,7 +66,7 @@ body{
 }
 .accordion-content .header .textheader{
     width: 40vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-top: 2.5vh;
 }
 
@@ -93,19 +93,51 @@ body{
 
 .accordion-content .header i{
     font-size: 40px;
-    color: #636363;
+    color: white;
+}
+
+.descricao p{
+    color: white;
+    margin-left: 2vw;
+    font-size: 12px;
+    width: 48vw;
 }
 
 .accordion-content .description1 .description2{
     height: 0;
-    font-size: 12px;
     color: white;
     font-weight: 400;
     padding: 0 15px;
     transition: all 0.2s linear;
-    width: 35vw;
-    margin-left: 2vw;
 }
 .accordion-content .descricao img{
     width: 10vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.accordion-content .descricao .primeiraft{
+    margin-left: 7vw;
+}
+.accordion-content .firstp{
+    margin-left: 1vw;
+}
+.accordion-content .comentario h2{
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.accordion-content .comentario input{
+    margin-left: 5vw;
+    width: 40vw;
+    height: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+#placeholder-text::placeholder {
+    padding-left: 2vh;
 }
